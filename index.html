@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Random Advancement Generator</title>
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="reset.css">
+
+    <script src="main.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lato&family=Open+Sans:wght@300;500&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Open+Sans:wght@300&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1 class="title">The Random Advancement Generator</h1>
+
+    <p id="advancement">No Advancement</p>
+
+    <button id="button" type="button" onclick="document.getElementById('advancement').innerHTML = advancement()">Generate Advancement</button>
+    
+    
+    <div class="options">
+        <label class="container">Minecraft
+            <input id="cat-minecraft" type="checkbox" checked>
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">Adventure
+            <input id="cat-adventure" type="checkbox" checked>
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">Husbandry
+            <input id="cat-husbandry" type="checkbox" checked>
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">Nether
+            <input id="cat-nether" type="checkbox" checked>
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">The End
+            <input id="cat-end" type="checkbox" checked>
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">Challenges
+            <input id="cat-challenges" type="checkbox" checked>
+            <span class="checkmark"></span>
+        </label>
+    </div>
+</body>
+</html>
